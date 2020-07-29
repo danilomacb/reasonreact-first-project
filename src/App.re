@@ -1,4 +1,7 @@
 [@react.component]
 let make = () => {
-  <h1>{React.string("Hello World")}</h1>
+  <>
+    <h1>{React.string("Hello World")}</h1>
+    <Test />
+  </>
 };
